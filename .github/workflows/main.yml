@@ -5,9 +5,9 @@ name: CI
 on:
   # на push и pull_request, только для ветки master
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master]
+    branches: [main]
 
   # позволяет запускать workflow вручную с вкладки actions в интерфейсе github.com
   workflow_dispatch:
